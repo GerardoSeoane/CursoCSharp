@@ -1,0 +1,42 @@
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Interfaz Grafica.exe.config
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Interfaz Grafica.exe
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Interfaz Grafica.pdb
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Npgsql.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Buffers.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Collections.Immutable.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Memory.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Numerics.Vectors.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Text.Encodings.Web.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Text.Json.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Threading.Channels.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.ValueTuple.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Validaciones.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\BaseDatos.dll
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Validaciones.pdb
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Validaciones.dll.config
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\Npgsql.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Buffers.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Collections.Immutable.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Memory.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Numerics.Vectors.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Text.Encodings.Web.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Text.Json.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Threading.Channels.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\System.ValueTuple.xml
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\BaseDatos.pdb
+C:\CursoCSharp\Interfaz Grafica\bin\Debug\BaseDatos.dll.config
+C:\CursoCSharp\Interfaz Grafica\obj\Debug\1.- Interfaz Grafica.csproj.AssemblyReference.cache
+C:\CursoCSharp\Interfaz Grafica\obj\Debug\1.- Interfaz Grafica.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\Interfaz Grafica\obj\Debug\1.- Interfaz Grafica.csproj.CopyComplete
+C:\CursoCSharp\Interfaz Grafica\obj\Debug\Interfaz Grafica.exe
+C:\CursoCSharp\Interfaz Grafica\obj\Debug\Interfaz Grafica.pdb

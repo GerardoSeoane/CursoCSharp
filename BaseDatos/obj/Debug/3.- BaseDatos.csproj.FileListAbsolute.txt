@@ -1,0 +1,36 @@
+C:\CursoCSharp\BaseDatos\bin\Debug\BaseDatos.dll.config
+C:\CursoCSharp\BaseDatos\bin\Debug\BaseDatos.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\CursoCSharp\BaseDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\Npgsql.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Buffers.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Collections.Immutable.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Memory.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Text.Encodings.Web.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Text.Json.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Threading.Channels.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\System.ValueTuple.dll
+C:\CursoCSharp\BaseDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\Npgsql.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Buffers.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Collections.Immutable.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Memory.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Text.Encodings.Web.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Text.Json.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Threading.Channels.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\CursoCSharp\BaseDatos\bin\Debug\System.ValueTuple.xml
+C:\CursoCSharp\BaseDatos\obj\Debug\3.- BaseDatos.csproj.AssemblyReference.cache
+C:\CursoCSharp\BaseDatos\obj\Debug\3.- BaseDatos.csproj.CoreCompileInputs.cache
+C:\CursoCSharp\BaseDatos\obj\Debug\3.- BaseDatos.csproj.CopyComplete
+C:\CursoCSharp\BaseDatos\obj\Debug\BaseDatos.dll
+C:\CursoCSharp\BaseDatos\obj\Debug\BaseDatos.pdb
