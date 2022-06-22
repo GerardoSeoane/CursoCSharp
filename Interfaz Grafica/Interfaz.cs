@@ -16,6 +16,7 @@ namespace Interfaz_Grafica
             char opc = 'y';
             do
             {
+                inicio:;
                 Console.WriteLine("--------------------------------------");
                 Console.WriteLine($"Respuesta de BD--> {validar.ConectarBD()}");
                 Console.WriteLine("--------------------------------------");
@@ -33,9 +34,11 @@ namespace Interfaz_Grafica
                         break;
                     case "2":InsertarDatos();
                         break;
-                    case "3":
+                    case "3":ActualizarDatos();
                         break;
-                    case "4":
+                    case "4":EliminarDatos();
+                        break;
+                    case "5":goto inicio;
                         break;
                     default:
                         break;
@@ -44,6 +47,7 @@ namespace Interfaz_Grafica
                 Console.WriteLine("\nVolver a Menu?    SI (Y)    NO (Cualquier Tecla)   ");
                 opc = char.Parse(Console.ReadLine());
                 Console.Clear();
+                validar.DesconectarBD();
             } while (opc=='Y' || opc=='y');
 
             validar.DesconectarBD();
@@ -60,7 +64,15 @@ namespace Interfaz_Grafica
 
             foreach (EntPersona val in ListaPersonas)
             {
-                Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0,10)} | {val.Edad} | {val.Nacionalidad}");
+                if (val.Nombre.Length>10)
+                {
+                    Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0, 10)} | {val.Edad} | {val.Nacionalidad}");
+                }
+
+                else
+                {
+                    Console.WriteLine($"{val.ID} | {val.Nombre.PadRight(10,' ')} | {val.Edad} | {val.Nacionalidad}");
+                }
             }           
         }
 
@@ -79,7 +91,15 @@ namespace Interfaz_Grafica
 
                 foreach (EntPersona val in ListaPersonas)
                 {
-                    Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0, 10)} | {val.Edad} | {val.Nacionalidad}");
+                    if (val.Nombre.Length > 10)
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0, 10)} | {val.Edad} | {val.Nacionalidad}");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.PadRight(10, ' ')} | {val.Edad} | {val.Nacionalidad}");
+                    }
                 }
 
                 Console.Write("\nIngrese ID: ");
@@ -102,8 +122,94 @@ namespace Interfaz_Grafica
                 Console.WriteLine($"          FALLO AL INSERTAR          ");
                 Console.WriteLine("--------------------------------------\n");
             }
-            
+        }
 
+        public static void ActualizarDatos()
+        {
+            try
+            {
+                Console.Clear();
+                int Id;
+                string Nombre;
+                Console.WriteLine("--------------------------------------");
+                Console.WriteLine($"         ACTUALIZAR DATOS            ");
+                Console.WriteLine("--------------------------------------\n");
+
+                List<EntPersona> ListaPersonas = validar.MostrarDatos();
+
+                foreach (EntPersona val in ListaPersonas)
+                {
+                    if (val.Nombre.Length > 10)
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0, 10)} | {val.Edad} | {val.Nacionalidad}");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.PadRight(10, ' ')} | {val.Edad} | {val.Nacionalidad}");
+                    }
+                }
+
+                Console.Write("\nIngrese ID: ");
+                Id = int.Parse(Console.ReadLine());
+                Console.Write("Ingrese Nombre: ");
+                Nombre = Console.ReadLine();
+                
+                validar.ActualizarDatos(Id, Nombre);
+
+                Console.WriteLine("\n--------------------------------------");
+                Console.WriteLine($"       ACTUALIZADO CORRECTAMENTE       ");
+                Console.WriteLine("--------------------------------------\n");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("\n--------------------------------------");
+                Console.WriteLine($"          FALLO AL ACTUALIZAR          ");
+                Console.WriteLine("--------------------------------------\n");
+            }
+        }
+
+        public static void EliminarDatos()
+        {
+            try
+            {
+                Console.Clear();
+                int Id;
+                string Nombre;
+                Console.WriteLine("--------------------------------------");
+                Console.WriteLine($"           ELIMINAR DATOS            ");
+                Console.WriteLine("--------------------------------------\n");
+
+                List<EntPersona> ListaPersonas = validar.MostrarDatos();
+
+                foreach (EntPersona val in ListaPersonas)
+                {
+                    if (val.Nombre.Length > 10)
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.ToString().Substring(0, 10)} | {val.Edad} | {val.Nacionalidad}");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine($"{val.ID} | {val.Nombre.PadRight(10, ' ')} | {val.Edad} | {val.Nacionalidad}");
+                    }
+                }
+
+                Console.Write("\nIngrese ID: ");
+                Id = int.Parse(Console.ReadLine());
+
+                validar.EliminarDatos(Id);
+
+                Console.WriteLine("\n--------------------------------------");
+                Console.WriteLine($"         ELIMINADO CORRECTAMENTE       ");
+                Console.WriteLine("--------------------------------------\n");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("\n--------------------------------------");
+                Console.WriteLine($"           FALLO AL ELIMINAR           ");
+                Console.WriteLine("--------------------------------------\n");
+            }
         }
     }
 }

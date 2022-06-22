@@ -78,5 +78,20 @@ namespace Validaciones
             if (FilasAfectadas != 1)
                 throw new ApplicationException("Error al Insertar");     
         }
+
+        public void ActualizarDatos(int Id, string Nombre)
+        {
+            int FilasAfectadas = conexion.ActualizarDatos(Id, Nombre);
+            if (FilasAfectadas != 1)
+                throw new ApplicationException("Error al Actualizar");
+        }
+
+        public void EliminarDatos(int Id)
+        {
+            int FilasAfectadas = conexion.EliminarDatos(Id);
+            if (FilasAfectadas != 1)
+                throw new ApplicationException("Error al Eliminar");
+        }
+        
     }
 }

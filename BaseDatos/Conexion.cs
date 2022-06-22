@@ -71,6 +71,36 @@ namespace BaseDatos
             }
         }
 
+        public int ActualizarDatos(int Id, string Nombre)
+        {
+            try
+            {
+                DataTable Datos = new DataTable();
+                string query = $"UPDATE PERSONA SET nombre='{Nombre}' WHERE _id={Id}";
+                NpgsqlCommand SetData = new NpgsqlCommand(query, Connection);
+                int FilasAfectadas = SetData.ExecuteNonQuery();
+                return FilasAfectadas;
+            }
+            catch (Exception error)
+            {
+                return 0;
+            }
+        }
 
+        public int EliminarDatos(int Id)
+        {
+            try
+            {
+                DataTable Datos = new DataTable();
+                string query = $"DELETE FROM PERSONA WHERE _id={Id}";
+                NpgsqlCommand SetData = new NpgsqlCommand(query, Connection);
+                int FilasAfectadas = SetData.ExecuteNonQuery();
+                return FilasAfectadas;
+            }
+            catch (Exception error)
+            {
+                return 0;
+            }
+        }
     }
 }
